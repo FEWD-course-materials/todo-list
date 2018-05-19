@@ -36,3 +36,32 @@ body {
 	padding: 0;
 	list-style: none;
 }
+#todos li {
+	padding: 8px 20px;
+}
+#todos li:hover {
+	background: #EEE;
+}
+
+#todos .item {
+	cursor: pointer;
+}
+#todos .done .item {
+	color: #CCC;
+	text-decoration: line-through;
+}
+
+#todos a {
+	visibility: hidden;
+	cursor: pointer;
+	margin-left: 1em;
+	font-size: .5em;
+	text-transform: uppercase;
+	color: navy;
+}
+#todos li:hover a {
+	visibility: visible;
+}
+#todos a:hover {
+	text-decoration: underline;
+}
